@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d94148d9591483a843c3c2baa2d8c2, type: 3}
+  m_Name: UberAudioTest
+  m_EditorClassIdentifier: 
+  AudioEvents:
+  - EventName: Swipe
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 532e9ff3c53131641896e6d4ed5e29ba, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 24300002, guid: f3967496e064df14a87d8d6a1561d8df,
+      type: 2}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: Trampoline
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 5c40259d88c9b78499c550dbbf6b8740, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: Slime
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 796cab67e10e33442812a2393c6ecf0e, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: Bloodbag
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 24a7f1daaaceae444a56530903909266, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: MetalHit
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 2c60d0bbfe1d9fa4598afc2edb9b5562, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: ParachuteHit
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 0a59401c109116644a60a704c1a8cf48, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: PigeonDeath
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 90f8d481b31c24d48a147b08d8222ce6, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: PlaneSound
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: a874bda115bc185498a436eb15e33668, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 1
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: PoisonBlob
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: c5092748880c4ea4e838c31f54959d57, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 1
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: ShopCashier
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 4a8e222ec7af56847b54a41272fb8478, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: Blender
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: cef35f430c1bf7048830491fd9a0d69a, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: SnakeBite
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 4bce938e97e4f554981caf1ec40192ae, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: Footstep
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 564736f989ecc224480bd02eaf3d2ff3, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: SplatSquish
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 24a7f1daaaceae444a56530903909266, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: ButtonPress
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 9ab11d557037e424ba5edc80e523a580, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+  - EventName: FallSplat
+    RandomWeight: 1
+    Volume: 1
+    AudioClip: {fileID: 8300000, guid: 26095cb0083d82547b3dfcaba0ce8f0f, type: 3}
+    Priority: 128
+    GroupID: 0
+    Loop: 0
+    StopWhenSourceDies: 0
+    KeepLoopingWhenSourceDies: 0
+    DoNotTrackSourceMovement: 0
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    DopplerLevel: 1
+    MaxDistance: 500
+    MinDistance: 1
+    Mute: 0
+    OutputAudioMixerGroup: {fileID: 0}
+    PanStereo: 0
+    Pitch: 1
+    Spatialize: 0
+    RolloffMode: 0
+    CustomRolloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpatialBlend: 0
+    ReverbZoneMix: 1
